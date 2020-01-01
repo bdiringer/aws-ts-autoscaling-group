@@ -37,7 +37,7 @@ After cloning this repo, from this working directory, run these commands:
     $ pulumi stack output
     Current stack outputs (2):
     OUTPUT            VALUE
-    bastionHostname  ec2_hostname.compute.amazonaws.com
+    bastionHostname   ec2_hostname.compute.amazonaws.com
     webURL            alb-hostname.elb.amazonaws.com
     ```
 
