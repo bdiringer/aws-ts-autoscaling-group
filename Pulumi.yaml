@@ -1,0 +1,3 @@
+name: aws-ts-autoscaling-group
+runtime: nodejs
+description: Autoscaling Group with Application Load Balancer
