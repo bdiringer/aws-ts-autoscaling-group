@@ -22,7 +22,7 @@ After cloning this repo, from this working directory, run these commands:
 2. Set the required configuration variables for this program:
 
     ```bash
-    $ cat public_key.pub | pulumi config set publicKey
+    $ cat public_key.pub | pulumi config set awsPublicKey
     ```
 
 3. Stand up the stack, which will deploy a bastion host and install apache on the webservers:
@@ -37,8 +37,8 @@ After cloning this repo, from this working directory, run these commands:
     $ pulumi stack output
     Current stack outputs (2):
     OUTPUT            VALUE
-    bastion_hostname  ec2_hostname.compute.amazonaws.com
-    url               alb-hostname.elb.amazonaws.com
+    bastionHostname  ec2_hostname.compute.amazonaws.com
+    webURL            alb-hostname.elb.amazonaws.com
     ```
 
 5. Visit your new website by entering the websiteURL into your browser, or running:
